@@ -2,4 +2,4 @@
 A keybindings reference
 
 ## Online Keybindings
-[http://nathanvarner.com/keybindings/html/firefox.html](Firefox)
+[Firefox](http://nathanvarner.com/keybindings/html/firefox.html)
