@@ -24,7 +24,11 @@ DELIMITER = sys.argv[5]
 QUOTE = "" if len(sys.argv) == 6 else sys.argv[6]
 
 with open(FILE) as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=DELIMITER, quotechar=QUOTE)
+    csv_reader = None
+    if QUOTE:
+        csv_reader = csv.reader(csv_file, delimiter=DELIMITER, quotechar=QUOTE)
+    else:
+        csv_reader = csv.reader(csv_file, delimiter=DELIMITER)
     keybindings_object = {}
     for row in csv_reader:
         desc = row[DESC_INDEX]
