@@ -31,7 +31,7 @@ with open(FILE) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=DELIMITER)
     keybindings_object = {}
     for row in csv_reader:
-        desc = row[DESC_INDEX]
+        desc = row[DESC_INDEX].title()
         keybinding = row[KEYBINDING_INDEX]
         if desc not in keybindings_object.keys():
             keybindings_object[desc] = keybinding
@@ -40,4 +40,6 @@ with open(FILE) as csv_file:
         elif keybindings_object[desc] != keybinding and type(keybindings_object[desc]) != list:
             keybindings_object[desc] = [keybindings_object[desc], keybinding]
     with open(OUTPUT, "w") as json_file:
-        json.dump(keybindings_object, json_file, indent=2)
+        json.dump({"keybindings": keybindings_object}, json_file, indent=2)
+
+print("Don't forget to add metadata")
