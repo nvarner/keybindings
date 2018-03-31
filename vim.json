@@ -2,7 +2,8 @@
   "metadata": {
     "copyright": "Copyright (c) 2013 Richard Torruellas",
     "licence-type": "MIT",
-    "licence-link": "https://github.com/rtorr/vim-cheat-sheet/blob/master/License.txt"
+    "licence-link": "https://github.com/rtorr/vim-cheat-sheet/blob/master/License.txt",
+    "version": "1.0.0"
   },
   "keybindings": {
     "Open Help For Keyword": ":help keyword",

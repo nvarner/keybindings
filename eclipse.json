@@ -2,7 +2,8 @@
   "metadata": {
     "copyright": "(c) Copyright Eclipse contributors and others 2000, 2018",
     "licence-type": "EPL",
-    "licence-link": "http://www.eclipse.org/legal/epl-v10.html"
+    "licence-link": "http://www.eclipse.org/legal/epl-v10.html",
+    "version": "1.0.0"
   },
   "keybindings": {
     "Terminal view insert": [
