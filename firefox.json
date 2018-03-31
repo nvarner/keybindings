@@ -1,157 +1,162 @@
 {
-  "Back": [
-    "Alt+Left",
-    "Ctrl+["
-  ],
-  "Forward": [
-    "Alt+Right",
-    "Ctrl+]"
-  ],
-  "Home": "Alt+Home",
-  "Open File": "Ctrl+O",
-  "Reload": [
-    "F5",
-    "Ctrl+R"
-  ],
-  "Reload (override cache)": [
-    "Ctrl+F5",
-    "Ctrl+Shift+R"
-  ],
-  "Stop": "Esc",
-  "Go Down a Screen": "PgDn",
-  "Go Up a Screen": [
-    "PgUp",
-    "Shift+Space bar"
-  ],
-  "Go to Bottom of Page": "End",
-  "Go to Top of Page": "Home",
-  "Move to Next Frame": "F6",
-  "Move to Previous Frame": "Shift+F6",
-  "Print": "Ctrl+P",
-  "Save Page As": "Ctrl+S",
-  "Zoom In": "Ctrl++",
-  "Zoom Out": "Ctrl+-",
-  "Zoom Reset": "Ctrl+0",
-  "Copy": "Ctrl+C",
-  "Cut": "Ctrl+X",
-  "Delete": "Del",
-  "Paste": "Ctrl+V",
-  "Paste (as plain text)": "Ctrl+Shift+V",
-  "Redo": "Ctrl+Shift+Z",
-  "Select All": "Ctrl+A",
-  "Undo": "Ctrl+Z",
-  "Find": "Ctrl+F",
-  "Find Again": [
-    "F3",
-    "Ctrl+G"
-  ],
-  "Find Previous": [
-    "Shift+F3",
-    "Ctrl+Shift+G"
-  ],
-  "Quick Find within link-text only": "'",
-  "Quick Find": "/",
-  "Close the Find or Quick Find bar": "Esc",
-  "Focus Search bar": [
-    "Ctrl+K",
-    "Ctrl+J"
-  ],
-  "Quickly switch between search engines": [
-    "Ctrl+Up",
-    "Ctrl+Down"
-  ],
-  "View menu to switch add or manage search engines": [
-    "Alt+Up",
-    "Alt+Down",
-    "F4"
-  ],
-  "Close Tab": [
-    "Ctrl+W",
-    "Ctrl+F4\t- except for App Tabs"
-  ],
-  "Close Window": [
-    "Ctrl+Shift+W",
-    "Alt+F4"
-  ],
-  "Quit": "Ctrl+Q",
-  "Move Tab in focus Left": "Ctrl+Shift+PgUp",
-  "Move Tab in focus Right": "Ctrl+Shift+PgDn",
-  "Move Tab in focus to start": "Ctrl+Home",
-  "Move Tab in focus to end": "Ctrl+End",
-  "Mute/Unmute Audio": "Ctrl+M",
-  "New Tab": "Ctrl+T",
-  "New Window": "Ctrl+N",
-  "New Private Window": "Ctrl+Shift+P",
-  "Next Tab": [
-    "Ctrl+Tab",
-    "Ctrl+PgDn"
-  ],
-  "Open Address in New Tab": "Alt+Enter",
-  "Previous Tab": [
-    "Ctrl+Shift+Tab",
-    "Ctrl+PgUp"
-  ],
-  "Undo Close Tab": "Ctrl+Shift+T",
-  "Undo Close Window": "Ctrl+Shift+N",
-  "Select Tab 1 to 8": "Alt+1to8",
-  "Select Last Tab": "Alt+9",
-  "Moves the URL left or right (if cursor is in the address bar)": "Ctrl+Shift+X",
-  "History sidebar": "Ctrl+H",
-  "Library window (History)": "Ctrl+Shift+H",
-  "Clear Recent History": "Ctrl+Shift+Del",
-  "Bookmark This Page": "Ctrl+D",
-  "Bookmarks sidebar": "Ctrl+B",
-  "Library window (Bookmarks)": "Ctrl+Shift+O",
-  "Downloads": "Ctrl+Shift+Y",
-  "Add-ons": "Ctrl+Shift+A",
-  "Toggle Developer Tools": [
-    "F12",
-    "Ctrl+Shift+I"
-  ],
-  "Web Console": "Ctrl+Shift+K",
-  "Inspector": "Ctrl+Shift+C",
-  "Debugger": "Ctrl+Shift+S",
-  "Style Editor": "Shift+F7",
-  "Profiler": "Shift+F5",
-  "Network": "Ctrl+Shift+E",
-  "Developer Toolbar": "Shift+F2",
-  "Responsive Design View": "Ctrl+Shift+M",
-  "Scratchpad": "Shift+F4",
-  "Page Source": "Ctrl+U",
-  "Browser Console": "Ctrl+Shift+J",
-  "Page Info": "Ctrl+I",
-  "Next page": "N or J or Right",
-  "Previous page": "P or K or Left",
-  "Zoom in": "Ctrl++",
-  "Zoom out": "Ctrl+-",
-  "Automatic Zoom": "Ctrl+0",
-  "Rotate the document clockwise": "R",
-  "Rotate counterclockwise": "Shift+R",
-  "Switch to Presentation Mode": "Ctrl+Alt+P",
-  "Toggle Hand Tool": "H",
-  "Focus the Page Number input box": "Ctrl+Alt+G",
-  "Complete .com Address": "Ctrl+Enter",
-  "Complete .net Address": "Shift+Enter",
-  "Complete .org Address": "Ctrl+Shift+Enter",
-  "Delete Selected Autocomplete Entry": "Del",
-  "Toggle Full Screen": "F11",
-  "Toggle Menu Bar activation (showing it temporarily when hidden)": "Alt (KDE) or F10 (GNOME)",
-  "Toggle Reader Mode": "Ctrl+Alt+R",
-  "Caret Browsing": "F7",
-  "Select Location Bar": [
-    "F6",
-    "Alt+D",
-    "Ctrl+L"
-  ],
-  "Toggle Play / Pause": "Space bar",
-  "Decrease volume": "Down",
-  "Increase volume": "Up",
-  "Mute audio": "Ctrl+Down",
-  "Unmute audio": "Ctrl+Up",
-  "Seek back 15 seconds": "Left",
-  "Seek back 10 %": "Ctrl+Left",
-  "Seek forward 15 seconds": "Right",
-  "Seek forward 10 %": "Ctrl+Right",
-  "Seek to the beginning": "Home",
-  "Seek to the end": "End"
+  "metadata": {
+    "copyright": "©1998–2018 by AliceWyman, Chris Ilias, Gids, cor-el, Cheng Wang, Underpass, Kadir Topal, Tonnes, Michele Rodaro, Aleksej, mkupper, smo, Michael Verdi, YFdyh000, Matt Brubeck, scoobidiver, BijuGC, John99, Samuel Bronson, TomW, Gingerbread Man, Swarnava Sengupta, soucet, brix22, John Hawkinson, Joergen, ideato, user02, Dingster, scottedwards2000, Joshua Smith, kobe, twiss, mrthetooth, Meghraj Suthar, Jonas Jenwald, Hossain Al Ikram, Ede_123, scootergrisen, Joni, Artist, TheRealOne, otherechoes, skan1, Cynthia Pereira, rrthomas, gijs, Seburo, FreedomFighterSparrow [ffs], seulgi",
+    "licence-type": "CC BY-SA",
+    "licence-link": "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
+  },
+  "keybindings": {
+    "Back": [
+      "Alt+Left",
+      "Ctrl+["
+    ],
+    "Forward": [
+      "Alt+Right",
+      "Ctrl+]"
+    ],
+    "Home": "Alt+Home",
+    "Open File": "Ctrl+O",
+    "Reload": [
+      "F5",
+      "Ctrl+R"
+    ],
+    "Reload (Override Cache)": [
+      "Ctrl+F5",
+      "Ctrl+Shift+R"
+    ],
+    "Stop": "Esc",
+    "Go Down A Screen": "PgDn",
+    "Go Up A Screen": [
+      "PgUp",
+      "Shift+Space bar"
+    ],
+    "Go To Bottom Of Page": "End",
+    "Go To Top Of Page": "Home",
+    "Move To Next Frame": "F6",
+    "Move To Previous Frame": "Shift+F6",
+    "Print": "Ctrl+P",
+    "Save Page As": "Ctrl+S",
+    "Zoom In": "Ctrl++",
+    "Zoom Out": "Ctrl+-",
+    "Zoom Reset": "Ctrl+0",
+    "Copy": "Ctrl+C",
+    "Cut": "Ctrl+X",
+    "Delete": "Del",
+    "Paste": "Ctrl+V",
+    "Paste (As Plain Text)": "Ctrl+Shift+V",
+    "Redo": "Ctrl+Shift+Z",
+    "Select All": "Ctrl+A",
+    "Undo": "Ctrl+Z",
+    "Find": "Ctrl+F",
+    "Find Again": [
+      "F3",
+      "Ctrl+G"
+    ],
+    "Find Previous": [
+      "Shift+F3",
+      "Ctrl+Shift+G"
+    ],
+    "Quick Find Within Link-Text Only": "'",
+    "Quick Find": "/",
+    "Close The Find Or Quick Find Bar": "Esc",
+    "Focus Search Bar": [
+      "Ctrl+K",
+      "Ctrl+J"
+    ],
+    "Quickly Switch Between Search Engines": [
+      "Ctrl+Up",
+      "Ctrl+Down"
+    ],
+    "View Menu To Switch Add Or Manage Search Engines": [
+      "Alt+Up",
+      "Alt+Down",
+      "F4"
+    ],
+    "Close Tab": [
+      "Ctrl+W",
+      "Ctrl+F4\t- except for App Tabs"
+    ],
+    "Close Window": [
+      "Ctrl+Shift+W",
+      "Alt+F4"
+    ],
+    "Quit": "Ctrl+Q",
+    "Move Tab In Focus Left": "Ctrl+Shift+PgUp",
+    "Move Tab In Focus Right": "Ctrl+Shift+PgDn",
+    "Move Tab In Focus To Start": "Ctrl+Home",
+    "Move Tab In Focus To End": "Ctrl+End",
+    "Mute/Unmute Audio": "Ctrl+M",
+    "New Tab": "Ctrl+T",
+    "New Window": "Ctrl+N",
+    "New Private Window": "Ctrl+Shift+P",
+    "Next Tab": [
+      "Ctrl+Tab",
+      "Ctrl+PgDn"
+    ],
+    "Open Address In New Tab": "Alt+Enter",
+    "Previous Tab": [
+      "Ctrl+Shift+Tab",
+      "Ctrl+PgUp"
+    ],
+    "Undo Close Tab": "Ctrl+Shift+T",
+    "Undo Close Window": "Ctrl+Shift+N",
+    "Select Tab 1 To 8": "Alt+1to8",
+    "Select Last Tab": "Alt+9",
+    "Moves The Url Left Or Right (If Cursor Is In The Address Bar)": "Ctrl+Shift+X",
+    "History Sidebar": "Ctrl+H",
+    "Library Window (History)": "Ctrl+Shift+H",
+    "Clear Recent History": "Ctrl+Shift+Del",
+    "Bookmark This Page": "Ctrl+D",
+    "Bookmarks Sidebar": "Ctrl+B",
+    "Library Window (Bookmarks)": "Ctrl+Shift+O",
+    "Downloads": "Ctrl+Shift+Y",
+    "Add-Ons": "Ctrl+Shift+A",
+    "Toggle Developer Tools": [
+      "F12",
+      "Ctrl+Shift+I"
+    ],
+    "Web Console": "Ctrl+Shift+K",
+    "Inspector": "Ctrl+Shift+C",
+    "Debugger": "Ctrl+Shift+S",
+    "Style Editor": "Shift+F7",
+    "Profiler": "Shift+F5",
+    "Network": "Ctrl+Shift+E",
+    "Developer Toolbar": "Shift+F2",
+    "Responsive Design View": "Ctrl+Shift+M",
+    "Scratchpad": "Shift+F4",
+    "Page Source": "Ctrl+U",
+    "Browser Console": "Ctrl+Shift+J",
+    "Page Info": "Ctrl+I",
+    "Next Page": "N or J or Right",
+    "Previous Page": "P or K or Left",
+    "Automatic Zoom": "Ctrl+0",
+    "Rotate The Document Clockwise": "R",
+    "Rotate Counterclockwise": "Shift+R",
+    "Switch To Presentation Mode": "Ctrl+Alt+P",
+    "Toggle Hand Tool": "H",
+    "Focus The Page Number Input Box": "Ctrl+Alt+G",
+    "Complete .Com Address": "Ctrl+Enter",
+    "Complete .Net Address": "Shift+Enter",
+    "Complete .Org Address": "Ctrl+Shift+Enter",
+    "Delete Selected Autocomplete Entry": "Del",
+    "Toggle Full Screen": "F11",
+    "Toggle Menu Bar Activation (Showing It Temporarily When Hidden)": "Alt (KDE) or F10 (GNOME)",
+    "Toggle Reader Mode": "Ctrl+Alt+R",
+    "Caret Browsing": "F7",
+    "Select Location Bar": [
+      "F6",
+      "Alt+D",
+      "Ctrl+L"
+    ],
+    "Toggle Play / Pause": "Space bar",
+    "Decrease Volume": "Down",
+    "Increase Volume": "Up",
+    "Mute Audio": "Ctrl+Down",
+    "Unmute Audio": "Ctrl+Up",
+    "Seek Back 15 Seconds": "Left",
+    "Seek Back 10 %": "Ctrl+Left",
+    "Seek Forward 15 Seconds": "Right",
+    "Seek Forward 10 %": "Ctrl+Right",
+    "Seek To The Beginning": "Home",
+    "Seek To The End": "End"
+  }
 }

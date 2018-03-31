@@ -17,10 +17,13 @@ def create_table_row(description, shortcut):
 
 
 with open(sys.argv[1]) as input_file:
-    shortcuts = json.load(input_file)
+    json_file = json.load(input_file)
+    shortcuts = json_file["keybindings"]
+    metadata = json_file["metadata"]
     with open(sys.argv[2], "w") as output:
-        output.write("<!DOCTYPE html><html><head><title>Keybindings: {0}</title><body><table><thead><tr>"
-                     "<td>Keybinding Description</td><td>Keybinding</td></tr></thead><tbody>".format(sys.argv[1]))
+        output.write("<!DOCTYPE html><html><head><meta charset='UTF-8'/><title>Keybindings: {0}</title><body><table>"
+                     "<thead><tr><td>Keybinding Description</td><td>Keybinding</td></tr></thead><tbody>"
+                     .format(sys.argv[1]))
 
         for shortcut_description in shortcuts:
             if type(shortcuts[shortcut_description]) == list:
@@ -29,4 +32,8 @@ with open(sys.argv[1]) as input_file:
             else:
                 output.write(create_table_row(shortcut_description, shortcuts[shortcut_description]))
 
-        output.write("</tbody></table></body></html>")
+        output.write("</tbody></table>")
+        output.write("<footer>{0} <a href={1}>Licence: {2}</a></footer>".format(metadata["copyright"],
+                                                                                metadata["licence-link"],
+                                                                                metadata["licence-type"]))
+        output.write("</body></html>")

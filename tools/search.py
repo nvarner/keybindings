@@ -20,8 +20,14 @@ def search_to_regex(search):
 
 
 with open(sys.argv[1]) as file:
-    shortcuts = json.load(file)
+    json_file = json.load(file)
+    shortcuts = json_file["keybindings"]
     regex = search_to_regex(" ".join(sys.argv[2:]))
+
+    # Copyright
+    print(json_file["metadata"]["copyright"])
+    print(json_file["metadata"]["licence-link"])
+    print("------------")
 
     for shortcut_function in shortcuts:
         if regex.search(shortcut_function):
