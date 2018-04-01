@@ -1,0 +1,150 @@
+:root {
+    --golden-ratio: 1.61803;
+
+    --default-padding: 0.1in;
+
+    --font-stack: sans-serif;
+    --indent: 0.4in;
+
+    --default-font-size: 16px;
+    --default-font-size-int: 16;
+    --ideal-line-height: calc(var(--default-font-size) * var(--golden-ratio));
+    --ideal-line-width: calc(var(--ideal-line-height) * var(--default-font-size-int) * var(--golden-ratio));/*Squaring*/
+
+    --default-background: #ffffff;
+    --default-text-color: #000000;
+    --inverse-background: #000000;
+    --inverse-text-color: #ffffff;
+    --mid-background: #dddddd;
+    --mid-text-color: #222222;
+    --past-mid-background: #cccccc;
+    --past-mid-text-color: #333333;
+    --delete-color: #c70000;
+    --add-color: #42ab07;
+
+    --heading-padding-left: 5%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-stack);
+    font-size: var(--default-font-size);
+    line-height: var(--ideal-line-height);
+    color: var(--default-text-color);
+    background-color: var(--default-background);
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+}
+
+body {
+    max-width: var(--ideal-line-width);
+    min-width: 0;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding-bottom: var(--default-padding);
+}
+
+article {
+    padding: var(--default-padding);
+}
+
+aside {
+    width: 4in;
+    max-width: 90%;
+    margin: auto auto var(--default-padding);
+    padding: var(--default-padding);
+    text-align: center;
+}
+
+button {
+    display: inline;
+    width: auto;
+    border: 1px solid black;
+    padding: calc(var(--default-padding) * 2);
+    margin: var(--default-padding) auto;
+    color: var(--default-text-color);
+    background-color: var(--default-background);
+    transition: background-color 0.2s, color 0.2s;
+}
+button:hover {
+    color: var(--mid-text-color);
+    background-color: var(--mid-background);
+}
+button:active {
+    color: var(--inverse-text-color);
+    background-color: var(--inverse-background);
+}
+
+code {
+    color: var(--inverse-text-color);
+    background-color: var(--inverse-background);
+    margin: var(--default-padding);
+    padding: var(--default-padding);
+}
+
+del {
+    color: var(--delete-color);
+}
+ins {
+    color: var(--add-color);
+}
+
+fieldset {
+    border: 1px solid black;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: var(--default-padding);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin-bottom: -1px;
+    padding-bottom: calc(var(--default-padding) / 2);
+}
+h1 {
+    padding-left: var(--heading-padding-left);
+}
+h2 {
+    padding-left: calc(var(--heading-padding-left) * 2);
+}
+
+header {
+    border-bottom: black 1px solid;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: var(--mid-background);
+    color: var(--mid-text-color);
+}
+input:active {
+    background-color: var(--past-mid-background);
+    color: var(--past-mid-text-color);
+}
+
+p {
+    margin-top: 0;
+    text-indent: var(--indent);
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+caption {
+    font-size: 120%;
+}
+thead > tr > td {
+    border-bottom: black 1px solid;
+}
+td {
+    padding: calc(var(--default-padding) / 4) var(--default-padding);
+}
