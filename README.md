@@ -2,9 +2,8 @@
 A keybindings reference
 
 ## Licencing
-The Python programs are Public Domain under the Unlicence. Data files
-are avalible under various licences. See the files for imformation about
-their copyright.
+Data files are avalible under various licences. See the files for
+information about their copyright.
 
 ## Online Keybindings
 * [Firefox](http://nathanvarner.com/keybindings/html/firefox.html)
